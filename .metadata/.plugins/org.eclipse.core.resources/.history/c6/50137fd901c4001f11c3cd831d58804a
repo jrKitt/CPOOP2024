@@ -1,0 +1,19 @@
+package Main;
+
+public class Project {
+	private String name;
+	private int duration;
+	private Person Person;
+	
+	
+	Project(){
+		this.name = "";
+		this.duration = 0;
+	}
+	
+	Project(String name, int duration, Person Person){
+		this.name = name;
+		this.duration = duration;
+		this.Person = Person;
+	}
+}
