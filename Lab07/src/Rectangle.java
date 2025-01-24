@@ -18,7 +18,7 @@ public class Rectangle extends Shape{
 
     @Override
     public double getCircumference() {
-        return 2 * (width * height);
+        return 2 * (width + height);
     }
     public double getArea(){
         return width * height;
