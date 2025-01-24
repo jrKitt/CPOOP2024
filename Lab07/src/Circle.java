@@ -1,13 +1,6 @@
-/*
- * 
- * 
- *  	นายกิตติชัย รักษาวงค์
- * 		673380028-2
- * 		Section 1
- * 
- * 
- * 
- * */
+/**
+ * @author นายกิตติชัย รักษาวงค์ 673380028-2 Section.1
+ */
 public class Circle extends Shape{
     private double radius;
 
