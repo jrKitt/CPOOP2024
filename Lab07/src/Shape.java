@@ -1,3 +1,13 @@
+/*
+ * 
+ * 
+ *  	นายกิตติชัย รักษาวงค์
+ * 		673380028-2
+ * 		Section 1
+ * 
+ * 
+ * 
+ * */
 public class Shape {
     private int x_left;
     private int y_left;

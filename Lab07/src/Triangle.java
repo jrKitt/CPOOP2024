@@ -1,3 +1,13 @@
+/*
+ * 
+ * 
+ *  	นายกิตติชัย รักษาวงค์
+ * 		673380028-2
+ * 		Section 1
+ * 
+ * 
+ * 
+ * */
 public class Triangle extends Shape{
     private double width;
     private double height;
