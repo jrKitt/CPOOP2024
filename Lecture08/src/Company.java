@@ -3,7 +3,7 @@ import java.util.List;
 class Company {
     private String name;
     private String tel;
-    private List<Employee> add;
+    List<Employee> add = new ArrayList<>();
 
     public Company(String name, String tel) {
         this.name = name;
