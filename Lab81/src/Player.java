@@ -4,12 +4,28 @@
 class Player {
     private int id;
     private String name;
-    private RoleBehavior role;
+    RoleBehavior role;
 
-    public Player(int id, String name, RoleBehavior role) {
+    public Player(int id, String name) {
         this.id = id;
         this.name = name;
+        this.role = null;
+    }
+
+    public void setRole(RoleBehavior role) {
         this.role = role;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public RoleBehavior getRole() {
+        return role;
     }
 
     public String getPlayerInfo() {

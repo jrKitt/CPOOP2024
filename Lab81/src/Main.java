@@ -1,9 +1,5 @@
-/**
- * @author นายกิตติชัย รักษาวงค์ 673380028-2 Section.1
- */
 public class Main {
     public static void main(String[] args) {
-
         Team  team = new Team("Khon Kaen United","Khon Kaen");
 
         Player p1 = new Player(01,"Joey");
@@ -15,7 +11,6 @@ public class Main {
         team.addMember(p2);
 
         team.showPlayerInfo();
-
 
     }
 }

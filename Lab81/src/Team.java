@@ -3,7 +3,6 @@
  */
 import java.util.ArrayList;
 import java.util.List;
-
 class Team {
     private String name;
     private String address;

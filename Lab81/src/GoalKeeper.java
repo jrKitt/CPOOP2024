@@ -1,12 +1,11 @@
 /**
  * @author นายกิตติชัย รักษาวงค์ 673380028-2 Section.1
  */
-public class GoalKeeper implements IRoleBehavior {
-    protected double earn_amt;
+class GoalKeeper extends RoleBehavior {
     String role;
 
-    public GoalKeeper(double earn_amt, String role) {
-        this.earn_amt = earn_amt;
+    public GoalKeeper(int earn_amt, String role) {
+        super(earn_amt);
         this.role = role;
     }
 
