@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.*;
 
 public class BookCatalog {
-    List<Book> books = new ArrayList<>();
+    static List<Book> books = new ArrayList<>();
 
     public void addBook(Book book){
         books.add(book);
@@ -16,20 +16,33 @@ public class BookCatalog {
         new sortedBookByISBN();
     }
     public void sortByISBNLambda() {
-        books.sort(new sortedByISBNLambda());
+        BookComparator tester = (Book b1, Book b2)->b1.getIsbn().compareTo(b2.getIsbn());
+        Collections.sort(books, tester);
     }
 
     public void sortByISBNAnonymous() {
-        books.sort(new sortedByISBNAnonymous()::compare);
+        BookComparator tester = new BookComparator() {
+            @Override
+            public int compare(Book o1, Book o2) {
+                return o1.getIsbn().compareTo(o2.getIsbn());
+            }
+        };
+        Collections.sort(books, tester);
     }
 
-    public void sortByISBNMethodRef() {
-        books.sort(new sortedByISBNMethodRef());
+    public static int sortByISBNMethodRef(Book book1, Book book2) {
+        return book1.getIsbn().compareTo(book2.getIsbn());
+    }
+
+    public void sortByISBNMethodRef(){
+        BookComparator tester = BookCatalog::sortByISBNMethodRef;
+        Collections.sort(books, tester);
     }
 
     public void sortByTitleAndPrice() {
-       books.sort(new sortedByTitleAndPrice());
+        books.sort(Comparator.comparing(Book::getTitle).thenComparing(Book::getPrice));
     }
+
 
     public void showBooks(){
         for(Book book : books){
