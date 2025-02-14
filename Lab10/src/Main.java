@@ -17,8 +17,8 @@ public class Main {
         tokens.forEach(System.out::println);
 
         System.out.println();
-        int[] vector1 = new int[0];
-        int[] vector2 = new int[0];
+        int[] vector1 = dic.getVector(sentence1);
+        int[] vector2 = dic.getVector(sentence2);
 
         for(int i = 0; i < vector2.length; i++) {
             System.out.print(vector2[i]);
