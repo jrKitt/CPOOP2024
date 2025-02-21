@@ -1,3 +1,6 @@
+/**
+ * @author นายกิตติชัย รักษาวงค์ 673380028-2 Section.1
+ */
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;

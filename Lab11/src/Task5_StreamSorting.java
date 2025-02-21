@@ -1,3 +1,6 @@
+/**
+ * @author นายกิตติชัย รักษาวงค์ 673380028-2 Section.1
+ */ss
 import java.util.*;
 import java.util.stream.Collectors;
 
