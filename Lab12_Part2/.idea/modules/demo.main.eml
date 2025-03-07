@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<contentEntry url="file://$MODULE_DIR$/../../src/main"/>
+	<contentEntry url="file://$MODULE_DIR$/../../src/main"/>
+	<levels>
+		<level name="Gradle: org.openjfx:javafx-fxml:23.0.2" value="project"/>
+		<level name="Gradle: org.openjfx:javafx-fxml:mac-aarch64:23.0.2" value="project"/>
+		<level name="Gradle: org.openjfx:javafx-controls:23.0.2" value="project"/>
+		<level name="Gradle: org.openjfx:javafx-controls:mac-aarch64:23.0.2" value="project"/>
+		<level name="Gradle: org.openjfx:javafx-graphics:23.0.2" value="project"/>
+		<level name="Gradle: org.openjfx:javafx-graphics:mac-aarch64:23.0.2" value="project"/>
+		<level name="Gradle: org.openjfx:javafx-base:23.0.2" value="project"/>
+		<level name="Gradle: org.openjfx:javafx-base:mac-aarch64:23.0.2" value="project"/>
+	</levels>
+</component>
